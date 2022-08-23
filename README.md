@@ -4,11 +4,7 @@ In this project, a simple object tracking algorithm was written with the ability
 
 It uses Kalman filter for predicting the future position of each object that are tracked and tries to assign correctly to the same object in the video using IoU and distance threshold. 
  
-YOLOV3 is used for object detection. 
-
-
-
-
+YOLOV3 is used for object detection. The weight file, .cfg file and the coco.names files have to separately downloaded from the internet and placed in the yolov3 folder. You can read about it in https://pjreddie.com/darknet/yolo/ 
 
 
 
